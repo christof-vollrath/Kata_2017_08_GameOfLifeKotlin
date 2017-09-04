@@ -2,7 +2,7 @@ import io.kotlintest.matchers.shouldBe
 import io.kotlintest.matchers.shouldEqual
 import io.kotlintest.specs.StringSpec
 
-class GameOfLifeSpec_old : StringSpec() { init {
+class GameOfLifeSpec : StringSpec() { init {
     "A new board should have only dead fields" {
         val board = Board()
         board.isEmpty() shouldBe true
